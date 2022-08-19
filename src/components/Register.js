@@ -64,7 +64,7 @@ const Register = ({ navigation }) => {
 
               if (userData.status === "200") {
                 setloading(false);
-                alert("User Register !");
+                alert("We have sent you an email verification !");
                 navigation.goBack();
                 // navigation.replace("Results")
               }
